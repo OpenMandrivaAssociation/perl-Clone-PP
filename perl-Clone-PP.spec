@@ -1,15 +1,14 @@
-%define upstream_name	 Clone-PP
-%define upstream_version 1.02
+%define upstream_name	 Clone-PP%define upstream_version 1.05
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Recursively copy Perl datatypes
 License:	Artistic/GPL
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Clone/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Clone/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -63,4 +62,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri May 19 2006 Scott Karns <scottk@mandriva.org> 1.02-1mdk
 - Initial MDV release
+
 
