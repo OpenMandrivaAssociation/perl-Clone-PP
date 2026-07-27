@@ -2,7 +2,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	1.08
-Release:	1
+Release:	2
 
 Summary:	Recursively copy Perl datatypes
 License:	Artistic/GPL
